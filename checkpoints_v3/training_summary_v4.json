@@ -1,0 +1,145 @@
+[
+  {
+    "exercise": "bicep_curl",
+    "state_names": [
+      "bc_down",
+      "bc_curling",
+      "bc_top"
+    ],
+    "window_size": 10,
+    "best_val_acc": 0.8492,
+    "test_acc": 0.8261,
+    "epochs_run": 48
+  },
+  {
+    "exercise": "jumping_jack",
+    "state_names": [
+      "jj_standing",
+      "jj_airborne",
+      "jj_wide",
+      "jj_closing"
+    ],
+    "window_size": 8,
+    "best_val_acc": 0.5391,
+    "test_acc": 0.736,
+    "epochs_run": 28
+  },
+  {
+    "exercise": "lateral_raise",
+    "state_names": [
+      "lr_down",
+      "lr_raising",
+      "lr_top"
+    ],
+    "window_size": 10,
+    "best_val_acc": 0.7097,
+    "test_acc": 0.8338,
+    "epochs_run": 37
+  },
+  {
+    "exercise": "lunge",
+    "state_names": [
+      "lu_up",
+      "lu_stepping",
+      "lu_bottom"
+    ],
+    "window_size": 10,
+    "best_val_acc": 0.8745,
+    "test_acc": 0.705,
+    "epochs_run": 150
+  },
+  {
+    "exercise": "plank",
+    "state_names": [
+      "pk_neutral",
+      "pk_hold"
+    ],
+    "window_size": 8,
+    "best_val_acc": 0.9904,
+    "test_acc": 0.9805,
+    "epochs_run": 28
+  },
+  {
+    "exercise": "pullup",
+    "state_names": [
+      "pu_down",
+      "pu_pulling",
+      "pu_top"
+    ],
+    "window_size": 12,
+    "best_val_acc": 0.8922,
+    "test_acc": 0.8786,
+    "epochs_run": 163
+  },
+  {
+    "exercise": "pushup",
+    "state_names": [
+      "pu_up",
+      "pu_descending",
+      "pu_bottom"
+    ],
+    "window_size": 10,
+    "best_val_acc": 0.7517,
+    "test_acc": 0.7833,
+    "epochs_run": 131
+  },
+  {
+    "exercise": "shoulder_press",
+    "state_names": [
+      "sp_down",
+      "sp_pressing",
+      "sp_top"
+    ],
+    "window_size": 10,
+    "best_val_acc": 0.906,
+    "test_acc": 0.8382,
+    "epochs_run": 100
+  },
+  {
+    "exercise": "situp",
+    "state_names": [
+      "su_down",
+      "su_ascending",
+      "su_top"
+    ],
+    "window_size": 10,
+    "best_val_acc": 0.7206,
+    "test_acc": 0.7491,
+    "epochs_run": 43
+  },
+  {
+    "exercise": "squat",
+    "state_names": [
+      "sq_up",
+      "sq_descending",
+      "sq_bottom"
+    ],
+    "window_size": 13,
+    "best_val_acc": 0.8028,
+    "test_acc": 0.6186,
+    "epochs_run": 43
+  },
+  {
+    "exercise": "tricep_dip",
+    "state_names": [
+      "td_up",
+      "td_descending",
+      "td_bottom"
+    ],
+    "window_size": 12,
+    "best_val_acc": 0.8052,
+    "test_acc": 0.8468,
+    "epochs_run": 85
+  },
+  {
+    "exercise": "wall_sit",
+    "state_names": [
+      "ws_neutral",
+      "ws_hold"
+    ],
+    "window_size": 8,
+    "best_val_acc": 0.871,
+    "test_acc": 0.7082,
+    "epochs_run": 23
+  }
+]

@@ -1,0 +1,55 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Model weights (large binary files — store in cloud / DVC) ────────────────
+model/checkpoints/*.pth
+model/checkpoints/*.pt
+models/*.engine
+models/*.onnx
+models/*.trt
+
+# ── Pose model cache (auto-downloaded on first run) ───────────────────────────
+.pose_models/
+
+# ── Data (use DVC or S3) ─────────────────────────────────────────────────────
+data/raw/
+data/processed/*.npz
+data/processed/normalizer_stats.json
+/data/
+*.zip
+
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+*.env
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Benchmark results ─────────────────────────────────────────────────────────
+results/
+benchmarks/results/
+voice_cache/
+
+# ── Video files ───────────────────────────────────────────────────────────────
+*.mp4
+*.avi
+*.mov
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# Downloaded third-party base model
+/yolov8n.pt
+/checkpoints_v3/*.pt
