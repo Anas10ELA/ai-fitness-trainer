@@ -1,6 +1,6 @@
 # AI Fitness Trainer
 
-Real-time AI fitness coaching system using YOLOv8 person detection, RTMPose keypoint estimation, and per-exercise DLEngine checkpoints for state prediction, rep counting, and form feedback gating.
+Real-time AI fitness coaching system using YOLOv8 person detection, RTMPose keypoint estimation, and exercise-specific DLEngine models for state prediction, rep counting, and form feedback gating.
 
 ## Portfolio highlights
 
@@ -13,11 +13,12 @@ Real-time AI fitness coaching system using YOLOv8 person detection, RTMPose keyp
 - Includes inference benchmarks, automated tests, Docker/Nginx deployment
   files, and optional ONNX/TensorRT backends.
 
-The repository includes per-exercise checkpoints for 12 exercises. Raw videos,
-processed training data, virtual environments, runtime caches, and benchmark
-outputs are excluded. Add training media locally under `data/raw/` if you have
-permission to use it, then follow the training steps below. The YOLOv8 base
-weight is downloaded by Ultralytics when needed rather than stored here.
+This public source repository intentionally excludes trained checkpoints,
+base weights, raw videos, processed training data, virtual environments,
+runtime caches, and benchmark outputs. Obtain permission for your chosen
+training data and model weights before adding them locally under `data/raw/`
+and `checkpoints_v3/`. The YOLOv8 base weight is downloaded by Ultralytics
+when needed rather than stored here.
 
 ## Architecture
 
